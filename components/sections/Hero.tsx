@@ -199,7 +199,7 @@ export function Hero() {
               {/* Poster */}
               {!isPlaying && (
                 <Image
-                  src="/videos/hero-poster.jpg"
+                  src="/images/hero-behind-the-scenes.jpg"
                   alt="Freekit Media showreel preview"
                   fill
                   priority
@@ -213,7 +213,7 @@ export function Hero() {
               <video
                 ref={videoRef}
                 src="https://ik.imagekit.io/freekitMedia/Freekit%20media%20Assets/testimonials/freekit%20media%20video.mp4"
-                poster="/videos/hero-poster.jpg"
+                poster="/images/hero-behind-the-scenes.jpg"
                 playsInline
                 preload="none"
                 controls={isPlaying}
