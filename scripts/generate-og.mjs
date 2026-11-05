@@ -3,10 +3,10 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { createRequire } from "node:module";
 import React from "react";
+import { ogCard, OG_SIZE } from "../lib/og-card.js";
 
 const require = createRequire(import.meta.url);
 const { ImageResponse } = require("next/og");
-const { ogCard, OG_SIZE } = require("../lib/og-card.js");
 
 const { servicePages } = await import("../content/service-pages.ts");
 const { partners } = await import("../content/partners.ts");

@@ -29,9 +29,8 @@ const serviceImages: Record<string, string> = {
   "lead-generation-whatsapp": unsplash(
     "photo-1611606063065-ee7946f0787a",
   ),
-  "offline-branding-print": unsplash(
-    "photo-1561070791-2526d30994b8",
-  ),
+  "offline-branding-print":
+    "https://www.forestdigital.co.uk/wp-content/uploads/2022/08/IMG_2611_2-scaled.jpg",
   "growth-audit-strategy": unsplash(
     "photo-1552664730-d307ca884978",
   ),

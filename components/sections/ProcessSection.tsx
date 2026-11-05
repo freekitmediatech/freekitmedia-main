@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useRef, useState } from "react";
 
 import { Container } from "@/components/ui/Container";
@@ -360,10 +361,13 @@ export function ProcessSection() {
                       />
 
                       {/* Animated GIF */}
-                      <img
+                      <Image
                         src={image}
                         alt=""
+                        fill
+                        unoptimized
                         draggable={false}
+                        sizes="(max-width: 640px) 88vw, (max-width: 1024px) 50vw, 25vw"
                         className="
                           absolute
                           inset-0

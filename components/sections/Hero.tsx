@@ -20,7 +20,7 @@ function Title() {
       data-hero-title
       className={cn(
         "font-display mx-auto max-w-5xl text-[clamp(3rem,8.3vw,7.4rem)]",
-        "font-semibold leading-[0.94] tracking-[-0.075em] text-ink",
+        "font-semibold capitalize leading-[0.94] tracking-[-0.075em] text-ink",
       )}
     >
       {heroHeading.map((part, i) => {

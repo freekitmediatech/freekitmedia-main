@@ -12,7 +12,7 @@ const stories = [
     id: 1,
     title: "Dr. Sharma's story",
     client: "Dr. Sharma",
-    business: "Dental practice (practice name TODO)", // changetis 
+    business: "Dental clinic",
     quote: "TODO: Add an approved quote from this video testimonial.",
     video: "https://ik.imagekit.io/freekitMedia/Freekit%20media%20Assets/testimonials/sharma%20dental%20feedback.mp4?updatedAt=1793103262616",
     poster: "/images/partners/videos/1.jpeg",
@@ -30,7 +30,7 @@ const stories = [
     id: 3,
     title: "Tyre Center's story",
     client: "Tyre Centre",
-    business: "Tyre business (business name TODO)",
+    business: "Tyre business",
     quote: "TODO: Add an approved quote from this video testimonial.",
     video: "https://ik.imagekit.io/freekitMedia/Freekit%20media%20Assets/testimonials/tyre%20centre%20feedback.mp4?updatedAt=1793103261793",
     poster: "/images/partners/videos/3.jpeg",
@@ -39,7 +39,7 @@ const stories = [
     id: 4,
     title: "The URS story",
     client: "URS",
-    business: "Business type TODO",
+    business: "Business growth",
     quote: "TODO: Add an approved quote from this video testimonial.",
     video: "https://ik.imagekit.io/freekitMedia/Freekit%20media%20Assets/testimonials/URS%20Feedback.mp4?updatedAt=1793103639145",
     poster: "/images/partners/videos/4.jpeg",
@@ -496,6 +496,7 @@ export function Testimonials() {
                     src={story.poster}
                     alt=""
                     fill
+                    loading="eager"
                     sizes="(max-width: 640px) 76vw, (max-width: 1024px) 42vw, 320px"
                     className="pointer-events-none object-cover"
                   />
@@ -588,9 +589,9 @@ export function Testimonials() {
                 Free Digital Audit
               </p>
 
-              <h3 className="fk-title font-display">
+              <h3 className="fk-title font-display capitalize">
                 Let&apos;s make your brand{" "}
-                <span className="fk-italic">impossible</span> to ignore.
+                <span className="fk-italic capitalize">impossible</span> to ignore.
               </h3>
 
               <p className="fk-desc">
